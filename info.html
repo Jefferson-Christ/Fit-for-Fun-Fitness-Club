@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Name:   Jefferson Christ
+    Date:   11/2/2024
+    Assign: Fit For Fun Fitness Club
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit For Fun Fitness Club - Info</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <Header>
+        <h1>Fit For Fun Fitness Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>
+                Contact Information
+            </legend>
+            <label for="fname">
+                First Name: 
+                <input id="fname" type="text" name="First Name" required placeholder="First Name" autofocus>
+            </label>
+            <label for="lname">
+                Last Name: 
+                <input id="lname" type="text" name="Last Name" required placeholder="Last Name">
+            </label>
+            <label for="email">
+                Email: 
+                <input id="email" type="email" name="Email" placeholder="Example@email.com">
+            </label>
+            <label for="phone">
+                Phone: 
+                <input id="phone" type="tel" name="Phone" placeholder="5555555555">
+            </label>
+            <label for="selection">
+                Best way to reach: 
+                <select id="selection" name="selection">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="owl">Owl</option>
+                </select>
+            </label>
+            <label for="checkbox1">
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="Cross Training">
+                Cross Training<br>
+            </label>
+            <label for="checkbox2">
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="Sprint">
+                Sprint<br>
+            </label>
+            <label for="checkbox3">
+                <input type="checkbox" id="checkbox3" name="checkbox3" value="Spin">
+                Spin<br>
+            </label>
+            <label for="checkbox4">
+                <input type="checkbox" id="checkbox4" name="checkbox4" value="BodyPump">
+                BodyPump<br>
+            </label>
+            <label for="checkbox5">
+                <input type="checkbox" id="checkbox5" name="checkbox5" value="BodyCombat">
+                BodyCombat<br>
+            </label>
+            <label for="checkbox6">
+                <input type="checkbox" id="checkbox6" name="checkbox6" value="Step Interval">
+                Stpe Interval<br>
+            </label>
+            <label for="checkbox7">
+                <input type="checkbox" id="checkbox7" name="checkbox7" value="Advanced Cross Training">
+                Advanced Cross Training<br>
+            </label>
+            <label for="checkbox8">
+                <input type="checkbox" id="checkbox8" name="checkbox8" value="MixxedFIT">
+                MixxedFIT<br>
+            </label>
+            <label for="checkbox9">
+                <input type="checkbox" id="checkbox9" name="checkbox9" value="Zumba">
+                Zumba<br>
+            </label>
+            <label for="radiobox1">
+                A.M.
+                <input type="radio" id="radiobox1" name="radiobox" value="am">
+            </label>
+            <label for="radiobox2">
+                P.M.
+                <input type="radio" id="radiobox2" name="radiobox" value="pm">
+            </label>
+        </fieldset>
+        <label for="submit">
+            <input id="submit" type="submit" name="Submit">
+        </label>
+    </form>
+    <footer>
+        Contact us at: 555-555-5555
+    </footer>
+</body>
+</html>
